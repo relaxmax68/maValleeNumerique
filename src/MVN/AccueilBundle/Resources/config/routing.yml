@@ -1,0 +1,12 @@
+mvn_accueil_homepage:
+    path:     /
+    defaults: { _controller: MVNAccueilBundle:Default:index }
+mvn_accueil_devis:
+    path:     /devis
+    defaults: { _controller: MVNAccueilBundle:Default:devis }
+mvn_accueil_assistance:
+    path:     /assistance
+    defaults: { _controller: MVNAccueilBundle:Default:assistance }
+mvn_accueil_connexion:
+    path:     /connexion
+    defaults: { _controller: MVNAccueilBundle:Default:connexion }

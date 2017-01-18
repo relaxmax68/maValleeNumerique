@@ -15,7 +15,7 @@
 
     <title>{% block title %}{% endblock %}</title>
 
-    {% stylesheets 'bundles/testsassetic/css/*' filter='cssrewrite' %}
+    {% stylesheets 'bundles/mvnaccueil/css/*' filter='cssrewrite' %}
       <link rel="stylesheet" href="{{ asset_url }}" />   
     {% endstylesheets %}
 
@@ -43,7 +43,7 @@
         {% endblock %}
       {% endblock %}
 
-      {% javascripts 'bundles/testsassetic/js/*' %}
+      {% javascripts 'bundles/mvnaccueil/js/*' %}
         <script src="{{ asset_url }}"></script>
 
         {% block script %}

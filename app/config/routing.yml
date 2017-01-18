@@ -1,5 +1,5 @@
-tests_assetic:
-    resource: "@TestsAsseticBundle/Resources/config/routing.yml"
+mvn_accueil:
+    resource: "@MVNAccueilBundle/Resources/config/routing.yml"
     prefix:   /
 
 app:
