@@ -1,0 +1,9 @@
+live:
+    scheme: ftp
+    host: ftp.humandata.info
+    port: 21
+    user: relaxmax
+    pass: muse14O2switch14et
+    check: true
+    path:
+        remote: mavalleenumerique.humandata.info/

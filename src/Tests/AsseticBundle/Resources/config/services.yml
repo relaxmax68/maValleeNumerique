@@ -1,0 +1,4 @@
+services:
+#    tests_assetic.example:
+#        class: Tests\AsseticBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
