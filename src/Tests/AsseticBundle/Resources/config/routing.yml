@@ -1,0 +1,3 @@
+tests_assetic_homepage:
+    path:     /
+    defaults: { _controller: TestsAsseticBundle:Default:index }

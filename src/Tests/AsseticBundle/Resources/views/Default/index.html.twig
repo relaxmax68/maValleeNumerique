@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	{% stylesheets '@TestsAsseticBundle/Resources/public/css/main.css' filter='cssrewrite' %}
+	    <link rel="stylesheet" href="{{ asset_url }}" />
+	{% endstylesheets %}
+
+	<title>Tests</title>
+
+</head>
+<body>
+Hello World!
+{% image '@TestsAsseticBundle/Resources/public/images/world.jpeg' %}
+    <img src="{{ asset_url }}" alt="World" />
+{% endimage %}
+{% javascripts '@TestsAsseticBundle/Resources/public/js/main.js' %}
+    <script src="{{ asset_url }}"></script>
+{% endjavascripts %}
+</body>
+</html>
+

@@ -1,2 +1,4 @@
-# maValleeNumerique
-site pour la promotion de Ma Vallée Numérique
+Symfony
+=======
+
+A Symfony project created on November 22, 2016, 8:09 pm.
