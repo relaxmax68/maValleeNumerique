@@ -46,8 +46,24 @@
       {% javascripts 'bundles/mvnaccueil/js/*' %}
         <script src="{{ asset_url }}"></script>
 
-        {% block script %}
-        {% endblock %}
+        <script type="application/ld+json">
+            {
+              "@context" : "http://schema.org",
+              "@type" : "Organization",
+
+                    "name" : ,
+              
+                    "url" : ,
+              
+                    "sameAs" : [ ,         ]
+              
+                    "contactPoint" : [{
+                "@type" : "ContactPoint",
+                "telephone" : ,
+                "contactType" : "customer service"
+              }]
+            }
+        </script>
 
       {% endjavascripts %}
 
